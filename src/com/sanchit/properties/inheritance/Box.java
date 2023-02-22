@@ -7,7 +7,7 @@ public class Box {
 
     // let's declare some static method
     // the static method cannot be overridden
-    // as it does not depend on the object it will not  (overridden) by the child class/ obj
+    // as it does not depend on the object it will not (overridden) by the child class/ obj
     // inherited
     static void greeting(){
         System.out.println("this is static method , greeting ");
@@ -15,7 +15,6 @@ public class Box {
     // override dep on obj
     // static don't dep on obj
     // so static cannot be overridden
-
 
     Box(){
         this.h = -1;

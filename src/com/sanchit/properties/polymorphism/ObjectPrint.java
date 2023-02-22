@@ -1,7 +1,5 @@
 package com.sanchit.properties.polymorphism;
 
-import com.sun.security.jgss.GSSUtil;
-
 public class ObjectPrint {
     int num;
 

@@ -12,6 +12,7 @@ public class Numbers {
         return a + b + c;
     }
 
+    // at compile time it choose the appropriate function
     public static void main(String[] args) {
         Numbers num = new Numbers();  // just revising the concept
         num.sum(2 ,3); // you cannot call non-static inside static so firstly the obj (num) is created
